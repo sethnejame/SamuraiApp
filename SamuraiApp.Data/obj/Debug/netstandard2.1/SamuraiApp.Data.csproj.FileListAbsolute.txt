@@ -1,0 +1,5 @@
+C:\Users\seth\Desktop\Work\SamuraiApp\SamuraiApp.Data\bin\Debug\netstandard2.1\SamuraiApp.Data.deps.json
+C:\Users\seth\Desktop\Work\SamuraiApp\SamuraiApp.Data\bin\Debug\netstandard2.1\SamuraiApp.Data.dll
+C:\Users\seth\Desktop\Work\SamuraiApp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.csprojAssemblyReference.cache
+C:\Users\seth\Desktop\Work\SamuraiApp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.AssemblyInfoInputs.cache
+C:\Users\seth\Desktop\Work\SamuraiApp\SamuraiApp.Data\obj\Debug\netstandard2.1\SamuraiApp.Data.AssemblyInfo.cs
