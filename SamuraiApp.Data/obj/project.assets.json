@@ -1935,6 +1935,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "SamuraiApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SamuraiApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SamuraiApp.Domain.dll": {}
+        }
       }
     }
   },
@@ -6835,11 +6845,17 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "SamuraiApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SamuraiApp.Domain/SamuraiApp.Domain.csproj",
+      "msbuildProject": "../SamuraiApp.Domain/SamuraiApp.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.1"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.1",
+      "SamuraiApp.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6872,7 +6888,11 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
