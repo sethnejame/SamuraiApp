@@ -6875,25 +6875,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\seth\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\sethn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\Tests\\Tests.csproj",
+      "projectUniqueName": "D:\\Coding\\SamuraiApp\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\Tests\\Tests.csproj",
-      "packagesPath": "C:\\Users\\seth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\Tests\\obj\\",
+      "projectPath": "D:\\Coding\\SamuraiApp\\Tests\\Tests.csproj",
+      "packagesPath": "C:\\Users\\sethn\\.nuget\\packages\\",
+      "outputPath": "D:\\Coding\\SamuraiApp\\Tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\seth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\sethn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
