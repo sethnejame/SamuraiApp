@@ -13,9 +13,21 @@ namespace ConsoleApp
             context.Database.EnsureCreated();
             GetSamurais("Before Add:");
             AddSamurai();
+            InsertMultipleSamurais();
             GetSamurais("After Add:");
             Console.Write("Press any key...");
             Console.ReadKey();
+        }
+
+        private static void InsertMultipleSamurais()
+        {
+            var samurai = new Samurai { Name = "Bernie" };
+            var samurai2 = new Samurai { Name = "Charlie" };
+            var samurai3 = new Samurai { Name = "Seth" };
+            var samurai4 = new Samurai { Name = "Natalie" };
+            context.Samurais.AddRange(samurai, samurai2);
+
+            context.SaveChanges();
         }
 
         private static void AddSamurai()
@@ -24,6 +36,13 @@ namespace ConsoleApp
             context.Samurais.Add(samurai);
             context.SaveChanges();
 
+        }
+
+        private static void GetSamuraisSimpler()
+        {
+            //var samurais = context.Samurais.ToList();
+            var query = context.Samurais;
+            var samurais = query.ToList();
         }
 
         private static void GetSamurais(string text)

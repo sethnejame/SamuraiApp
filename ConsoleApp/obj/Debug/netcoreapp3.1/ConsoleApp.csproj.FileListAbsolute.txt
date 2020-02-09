@@ -46,3 +46,6 @@ D:\Coding\SamuraiApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CopyCo
 D:\Coding\SamuraiApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
 D:\Coding\SamuraiApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
 D:\Coding\SamuraiApp\ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Coding\SamuraiApp\ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\Coding\SamuraiApp\ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\Coding\SamuraiApp\ConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
