@@ -47,5 +47,19 @@ namespace ConsoleApp
             //var samurais = _context.Samurais.Where(s => EF.Functions.Like(s.Name, filter)).ToList();
             var last = _context.Samurais.OrderBy(s => s.Id).LastOrDefault(s => s.Name == name);
         }
+
+        private static void RetrieveAndUpdateSamurai()
+        {
+            var samurai = _context.Samurais.FirstOrDefault();
+            samurai.Name += "San";
+            _context.SaveChanges();
+        }
+
+        private static void RetrieveAndUpDateMultipleSamurais()
+        {
+            var samurais = _context.Samurais.Skip(1).Take(3).ToList();
+            samurais.ForEach(samurai => samurai.Name += "San");
+            _context.SaveChanges();
+        }
     }
 }
