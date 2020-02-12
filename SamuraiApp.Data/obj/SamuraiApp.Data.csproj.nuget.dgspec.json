@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj": {}
+    "D:\\Coding\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj": {
+    "D:\\Coding\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj",
+        "projectUniqueName": "D:\\Coding\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj",
         "projectName": "SamuraiApp.Data",
-        "projectPath": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj",
-        "packagesPath": "C:\\Users\\seth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Data\\obj\\",
+        "projectPath": "D:\\Coding\\SamuraiApp\\SamuraiApp.Data\\SamuraiApp.Data.csproj",
+        "packagesPath": "C:\\Users\\sethn\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\SamuraiApp\\SamuraiApp.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\seth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sethn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -31,8 +27,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj"
+              "D:\\Coding\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
+                "projectPath": "D:\\Coding\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj"
               }
             }
           }
@@ -70,22 +66,18 @@
         }
       }
     },
-    "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
+    "D:\\Coding\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
+        "projectUniqueName": "D:\\Coding\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
         "projectName": "SamuraiApp.Domain",
-        "projectPath": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\seth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seth\\Desktop\\Work\\SamuraiApp\\SamuraiApp.Domain\\obj\\",
+        "projectPath": "D:\\Coding\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\sethn\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\SamuraiApp\\SamuraiApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\seth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sethn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
