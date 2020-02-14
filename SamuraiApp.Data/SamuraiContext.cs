@@ -23,6 +23,7 @@ namespace SamuraiApp.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<SamuraiBattle>().HasKey(s => new { s.SamuraiId, s.BattleId });
+            modelBuilder.Entity<Horse>().ToTable("Horses");
         }
     }
 }
