@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SamuraiApp.Domain
 {
-    class Battle
+    public class Battle
     {
         public int Id { get; set; }
         public string Name { get; set; }

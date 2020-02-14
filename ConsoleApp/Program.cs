@@ -61,5 +61,20 @@ namespace ConsoleApp
             samurais.ForEach(samurai => samurai.Name += "San");
             _context.SaveChanges();
         }
+
+        private static void RetrieveAndDeleteSamurai()
+        {
+            var samurai = _context.Samurais.Find(18);
+            _context.Samurais.Remove(samurai);
+            _context.SaveChanges();
+        }
+
+        private static void InsertBattle()
+        {
+            _context.Battles.Add(new Battle
+            {
+                Nam
+            })
+        }
     }
 }
