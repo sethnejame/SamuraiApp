@@ -68,13 +68,5 @@ namespace ConsoleApp
             _context.Samurais.Remove(samurai);
             _context.SaveChanges();
         }
-
-        private static void InsertBattle()
-        {
-            _context.Battles.Add(new Battle
-            {
-                Nam
-            })
-        }
     }
 }
