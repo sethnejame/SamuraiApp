@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ConsoleApp/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.1",
           "SamuraiApp.Data": "1.0.0",
           "SamuraiApp.Domain": "1.0.0"
         },
