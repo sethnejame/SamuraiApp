@@ -121,5 +121,42 @@ namespace ConsoleApp
             _context.SaveChanges();
         }
 
+        private static void AddQuoteToExistingSamuraiWhileTracked()
+        {
+            var samurai = _context.Samurais.FirstOrDefault();
+            samurai.Quotes.Add(new Quote
+            {
+                Text = "I bet you're happy that I've saved you!"
+            });
+            _context.SaveChanges();
+        }
+
+        private static void AddQuoteToExistingSamuraiNotTracked(int samuraiId)
+        {
+            var samurai = _context.Samurais.Find(samuraiId);
+            samurai.Quotes.Add(new Quote
+            {
+                Text = "Now that I saved you, will you feed me dinner?"
+            });
+            using (var newContext = new SamuraiContext())
+            {
+                newContext.Samurais.Attach(samurai);
+                newContext.SaveChanges();
+            }
+        }
+
+        private static void AddQuoteToExistingSamuraiNotTracked_Easy(int samuraiId)
+        {
+            var quote = new Quote
+            {
+                Text = "Now that I saved you, will you feed me dinner again?",
+                SamuraiId = samuraiId
+            };
+            using (var newContext = new SamuraiContext())
+            {
+                newContext.Quotes.Add(quote);
+                newContext.SaveChanges();
+            }
+        }
     }
 }
