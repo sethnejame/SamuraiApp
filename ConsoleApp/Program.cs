@@ -2,6 +2,7 @@
 using SamuraiApp.Data;
 using SamuraiApp.Domain;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace ConsoleApp
@@ -79,6 +80,7 @@ namespace ConsoleApp
             });
             _context.SaveChanges();
         }
+
         private static void QueryAndUpdateBattle_Disconnected()
         {
             var battle = _context.Battles.AsNoTracking().FirstOrDefault();
@@ -89,5 +91,35 @@ namespace ConsoleApp
                 newContextInstance.SaveChanges();
             }
         }
+
+        private static void InsertNewSamuraiWithAQuote()
+        {
+            var samurai = new Samurai
+            {
+                Name = "Kambeh Shimada",
+                Quotes = new List<Quote>
+                {
+                    new Quote { Text = "I've come to save you" }
+                }
+            };
+            _context.Samurais.Add(samurai);
+            _context.SaveChanges();
+        }
+
+        private static void InsertNewSamuraiWithManyQuotes()
+        {
+            var samurai = new Samurai
+            {
+                Name = "Kyuzo",
+                Quotes = new List<Quote>
+                {
+                    new Quote { Text = "Watch our for my sharp sword!" },
+                    new Quote { Text = "I told you to watch our for the sharp sword! Oh well!" }
+                }
+            };
+            _context.Samurais.Add(samurai);
+            _context.SaveChanges();
+        }
+
     }
 }
